@@ -1,0 +1,30 @@
+4 - Dois veículos (um carro e um caminhão) saem respectivamente de cidades opostas pela mesma rodovia.
+O carro de Ribeirão Preto em direção a Franca, a uma velocidade constante de 110 km/h e o caminhão de Franca em direção a Ribeirão Preto a uma velocidade constante de 80 km/h.
+Quando eles se cruzarem na rodovia, qual estará mais próximo a cidade de Ribeirão Preto?
+
+IMPORTANTE:
+
+a) Considerar a distância de 100km entre a cidade de Ribeirão Preto <-> Franca.
+
+b) Considerar 2 pedágios como obstáculo e que o caminhão leva 5 minutos a mais para passar em cada um deles e o carro possui tag de pedágio (Sem Parar)
+
+c) Explique como chegou no resultado.
+
+Resposta:
+
+O carro e o caminhão estão à mesma distância de Ribeirão Preto. Quando eles se cruzam, encontram-se a uma distância de 60,9 km da cidade.
+
+Para determinar o local de cruzamento, podemos considerar Ribeirão Preto como ponto de referência. A equação horária do carro é dada por x1 = v1 * t, onde x1 é a posição do carro em relação à cidade de Ribeirão Preto, v1 é a velocidade do carro e t é o tempo decorrido.
+
+Já a equação horária do caminhão é dada por x2 = 100 km - v2 * t, onde x2 é a posição do caminhão em relação à cidade de Ribeirão Preto, v2 é a velocidade do caminhão e t é o tempo decorrido.
+
+Devido aos dois pedágios que o caminhão precisa passar e que levam 5 minutos cada um, podemos calcular o tempo de viagem sem esses obstáculos, que é dado por t = s/v = 100/80 = 1,25h.
+
+No entanto, considerando que ele perde 10 minutos (ou 0,17 horas) nos pedágios, o tempo total de viagem para o caminhão é de 1,25 horas + 0,17 horas = 1,42 horas. Sua velocidade média é dada por Vm = ΔS/Δt = 100 / 1,42 = 70,6 km/h.
+
+Podemos igualar as equações horárias para determinar o ponto de cruzamento entre o carro e o caminhão:
+x1 = x2 => v1t = 100 - v2t
+t = 100/(v1+v2)
+x1 = v1 * t = 110*100 / (110+70,6) = 60,9 km
+
+Portanto, essa é a distância da cidade de Ribeirão Preto em que o carro e o caminhão se cruzam, ambos a uma distância igual da cidade.
