@@ -5,14 +5,14 @@ function isFibonacci(num) {
   
     while (next <= num) {
       if (num === next) {
-        return true; // o número pertence à sequência de Fibonacci
+        return true;
       }
       prev = curr;
       curr = next;
       next = prev + curr;
     }
   
-    return false; // o número não pertence à sequência de Fibonacci
+    return false;
   }
   
   const num = parseInt(prompt("Digite um número inteiro:"));
